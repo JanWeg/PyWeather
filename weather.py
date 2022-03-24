@@ -3,7 +3,7 @@ import os
 import gettext
 import requests
 
-localedir = f'./locale'
+localedir = r'./locale'
 
 gettext.bindtextdomain('weather', localedir)
 gettext.textdomain('weather')
@@ -21,6 +21,7 @@ response = {}
 try:
     response = requests.get('https://api.openweathermap.org/data/2.5/'
                             f'weather?q={city}&units=metric&appid={api_key}').json()
+    print( "Weather data from {}: {}".format( city, response))
 except ConnectionError:
     print(_('Can not connect to the internet.'))
 condition = response['weather'][0]['main']
