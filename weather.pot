@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2022-03-24 12:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: weather.py:12
+msgid "This is a translatable text."
+msgstr ""
+
+#: weather.py:16
+msgid "Set environment variable \"WEATHER_API_KEY\" "
+msgstr ""
+
+#: weather.py:17
+msgid "to gain access to OpenWeather API."
+msgstr ""
+
+#: weather.py:27
+msgid "Light beerlamps{yes_or_no} at {city}."
+msgstr ""
+
+#: weather.py:28
+msgid " NOT"
+msgstr ""
+

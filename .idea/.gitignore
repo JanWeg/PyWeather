@@ -1,0 +1,5 @@
+# Default ignored files
+*.iml
+*.lock
+/shelf/
+/workspace.xml
