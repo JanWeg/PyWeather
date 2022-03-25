@@ -59,8 +59,7 @@ and the language to e.g. 'sv' then you have to create a directory
 translation results from the poeditor)
 Thisignore way you can create as many translations as you want.
 
-To switch the output language one must prefix the python command
-with
-```LANGUAGE=YZ```
-where XZ is the ISO-Code of your preferred country/language 
-if the translation is not present, the default translation (in the python file) is used.
+To switch the output language, one must prefix the python command with
+```LANGUAGE=YZ```, where YZ is the ISO-Code of your preferred country/language 
+if the translation is not present, the default translation (from the python file) will be used.
+
