@@ -38,7 +38,7 @@ the message key.
 
 When all translatable strings are marked in the above way, you run
 ```python
-$ pygettext3 -d weather  weather.py
+> pygettext3 -d weather weather.py
 ```
 This will produce a weather.pot file with some dummy project information and
 >\#: weather.py: ~lineno~
