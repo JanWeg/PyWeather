@@ -57,4 +57,10 @@ Provided, that you have set the domain to 'weather'
 and the language to e.g. 'sv' then you have to create a directory 
 'locale/sv/LC_MESSAGES/' within your project and place the resulting .po and .mo here (you do that by saving the
 translation results from the poeditor)
-This way you can create as many translations as you want.
+Thisignore way you can create as many translations as you want.
+
+To switch the output language one must prefix the python command
+with
+```LANGUAGE=YZ```
+where XZ is the ISO-Code of your preferred country/language 
+if the translation is not present, the default translation (in the python file) is used.
